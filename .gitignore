@@ -1,0 +1,6 @@
+.DSSTORE
+AWSVPNClient
+PureRef.ini
+nvim_backup
+efm-langserver
+configstore
