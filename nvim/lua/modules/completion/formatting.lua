@@ -40,6 +40,7 @@ end, {
 			"cpp",
 			"python",
 			"vue",
+      "html",
 			"typescript",
 			"javascript",
 			"yaml",

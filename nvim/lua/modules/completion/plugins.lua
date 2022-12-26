@@ -1,6 +1,12 @@
 local completion = {}
 local conf = require("modules.completion.config")
 
+completion["creativenull/efmls-configs-nvim"] = {
+	opt = false,
+  config= conf.efm,
+	requires = "neovim/nvim-lspconfig",
+}
+completion["ray-x/lsp_signature.nvim"] = { opt = false }
 completion["VonHeikemen/lsp-zero.nvim"] = {
 	opt = false,
 	requires = {
@@ -24,9 +30,6 @@ completion["VonHeikemen/lsp-zero.nvim"] = {
 	config = conf.lsp,
 }
 
--- completion["creativenull/efmls-configs-nvim"] = {
-	-- opt = false,
-	-- requires = "neovim/nvim-lspconfig",
--- }
+
 
 return completion
