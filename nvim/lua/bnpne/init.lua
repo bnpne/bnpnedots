@@ -99,7 +99,9 @@ local load_bnpne = function()
 	require("bnpne.event")
 	pack.load_compile()
 
-	vim.api.nvim_command([[colorscheme gruvbox]])
+	-- vim.api.nvim_command([[colorscheme gruvbox]])
+	-- vim.api.nvim_command([[colorscheme kanagawa]])
+	vim.api.nvim_command([[colorscheme oxocarbon]])
 end
 
 load_bnpne()
